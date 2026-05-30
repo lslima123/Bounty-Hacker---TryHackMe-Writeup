@@ -13,6 +13,18 @@ Bounty Hacker is a beginner-friendly Linux machine focused on enumeration, crede
 - Linux Privilege Escalation
 - GTFOBins
 
+- ## Attack Path
+
+1. Nmap Enumeration
+2. Anonymous FTP Access
+3. Credential Discovery
+4. SSH Brute Force
+5. User Access
+6. Sudo Enumeration
+7. Privilege Escalation via tar
+8. Root Access
+
+
 ## Tools Used
 
 - Nmap
@@ -131,7 +143,7 @@ THM{C***********}
 
 ### User Access
 
-<img width="752" height="585" alt="ssh" src="https://github.com/user-attachments/assets/6935abcb-f774-41d9-a49d-b2ae221218f3" />
+<img width="752" height="585" alt="ssh2" src="https://github.com/user-attachments/assets/8110ffa4-fabb-4586-bce5-e77af9699e0c" />
 
 
 ---
@@ -212,5 +224,3 @@ The box is beginner-friendly and provides a good introduction to Linux privilege
 - Running `sudo -l` should be one of the first actions after gaining a shell.
 - GTFOBins is an essential resource for Linux privilege escalation.
 ```
-
-Isso deixa o writeup com cara de portfólio de pentester em vez de apenas uma solução de CTF.
