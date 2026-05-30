@@ -223,4 +223,3 @@ The box is beginner-friendly and provides a good introduction to Linux privilege
 - SSH brute forcing becomes practical when a valid username and targeted wordlist are available.
 - Running `sudo -l` should be one of the first actions after gaining a shell.
 - GTFOBins is an essential resource for Linux privilege escalation.
-```
