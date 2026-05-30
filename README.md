@@ -6,6 +6,22 @@ Bounty Hacker is a beginner-friendly Linux machine focused on enumeration, crede
 
 **Difficulty:** Easy
 
+**Topics:**
+- FTP Enumeration
+- Hydra Brute Force
+- SSH Access
+- Linux Privilege Escalation
+- GTFOBins
+
+## Tools Used
+
+- Nmap
+- FTP
+- Hydra
+- SSH
+- GTFOBins
+
+  
 ---
 
 ## Nmap Scan
@@ -90,7 +106,7 @@ hydra -l lin -P locks.txt ssh://<TARGET_IP>
 Hydra successfully identified the password:
 
 ```text
-RedDr4gonSynd1cat3
+Red*****
 ```
 
 ---
@@ -110,7 +126,7 @@ cat ~/Desktop/user.txt
 ```
 
 ```text
-THM{CR1M3_SyNd1C4T3}
+THM{C***********}
 ```
 
 ### User Access
@@ -169,7 +185,7 @@ cat root.txt
 Flag:
 
 ```text
-THM{80UN7Y_h4cK3r}
+THM{8*********}
 ```
 
 ---
